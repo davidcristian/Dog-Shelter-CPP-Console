@@ -10,6 +10,7 @@
 void AdoptionList::add(const Dog& dog)
 {
 	this->dogs.push_back(dog);
+	adoptionList->write();
 }
 
 /// <summary>
