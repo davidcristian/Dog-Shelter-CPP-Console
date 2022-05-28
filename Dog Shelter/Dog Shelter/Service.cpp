@@ -94,7 +94,5 @@ Repository Service::filterByBreedAndAge(const std::string& breed, const int& age
 void Service::adopt(const Dog& dog)
 {
 	this->repo.remove(dog);
-
 	adoptionList->add(dog);
-	adoptionList->write();
 }
